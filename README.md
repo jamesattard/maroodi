@@ -14,5 +14,5 @@ Maroodi represents an easy way to access your HDFS data through SFTP(Secure File
 3. Navigate to the project root directory and run 'mvn package'. Then you can run the jar generated in folder **target** which will start the server.
 4. Once the server has started, it will accept input. In order to add a new user, type **createuser**. This will prompt you to input the name and the password.
 
-##Connecting
+## Connecting
 You can connect to the server with any client that support SFTP.
