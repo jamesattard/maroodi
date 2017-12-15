@@ -15,4 +15,7 @@ Maroodi represents an easy way to access your HDFS data through SFTP(Secure File
 4. Once the server has started, it will accept input. In order to add a new user, type **createuser**. This will prompt you to input the name and the password.
 
 ## Connecting
-You can connect to the server with any client that support SFTP.
+You can connect to the server with any client that support FTPS. Example:
+```bash
+curl --user james:password -k ftps://hadoop-master:21/file.txt -o bigfile.txt
+```
