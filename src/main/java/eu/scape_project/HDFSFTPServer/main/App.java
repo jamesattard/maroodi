@@ -82,7 +82,7 @@ public class App{
 		CommandFactory commandFactory = cf.createCommandFactory();
 		
 		// set the port of the listener
-		//factory.setPort(2221);
+		factory.setPort(2221);
 		//factory.setServerAddress("localhost");
 		// define SSL configuration
 		SslConfigurationFactory ssl = new SslConfigurationFactory();
