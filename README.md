@@ -1,13 +1,13 @@
 # Maroodi (FTP2HDFS)
 
-Maroodi represents an easy way to access your HDFS data through SFTP(Secure File Transfer Protocol).
+Maroodi represents an easy way to access your HDFS data through SFTP(Secure File Transfer Protocol). This project was forked from the original creator (https://bitbucket.org/scapeuvt/maroodi.git )
 
 ## Requirements
 1. Apache Hadoop http://hadoop.apache.org/
 2. Maven
 
 ## Download and config
-1. Download the project from https://bitbucket.org/scapeuvt/maroodi.git 
+1. Download the project from https://github.com/jamesattard/maroodi
 2. In the *conf* directory you will find a file named **maroodi_env.properties**. Here you have to set:
     * _hadoop.home_= home folder of your Hadoop installation (e.g. /etc/hadoop).
     * _user.path_= the path for users on HDFS (e.g. /user/).  Each user will have access only to its folder. For example user 'john' will have access to the folder '/user/john' on HDFS. 
