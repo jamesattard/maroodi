@@ -1,4 +1,4 @@
-# Maroodi (FTP2HDFS)
+# Maroodi (FTPS over HDFS)
 
 Maroodi represents an easy way to access your HDFS data through SFTP(Secure File Transfer Protocol). This project was forked from the original creator (https://bitbucket.org/scapeuvt/maroodi.git )
 
@@ -17,5 +17,5 @@ Maroodi represents an easy way to access your HDFS data through SFTP(Secure File
 ## Connecting
 You can connect to the server with any client that support FTPS. Example:
 ```bash
-curl --user james:password -k ftps://hadoop-master:21/file.txt -o bigfile.txt
+curl --user james:password -k ftps://hadoop-master:2221/file.txt -o bigfile.txt
 ```
