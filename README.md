@@ -25,5 +25,5 @@ keytool -keystore ftpserver.jks -genkeypair
 ```
 Then use curl with your keystore:
 ```bash
-curl --user james:password -k ftps://dev-application01.bigdatasson.com:21/file.txt -o downloaded -keystore maroodi/res/ftpserver.jks
+curl --user james:password -k ftps://hadoop-master:2221/file.txt -o downloaded -keystore maroodi/res/ftpserver.jks
 ```
