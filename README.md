@@ -19,3 +19,11 @@ You can connect to the server with any client that support FTPS. Example:
 ```bash
 curl --user james:password -k ftps://hadoop-master:2221/file.txt -o bigfile.txt
 ```
+If using a Keystore, first create one on the maroodi server:
+```bash
+keytool -keystore ftpserver.jks -genkeypair
+```
+Then use curl with your keystore:
+```bash
+curl --user james:password -k ftps://dev-application01.bigdatasson.com:21/file.txt -o downloaded -keystore maroodi/res/ftpserver.jks
+```
